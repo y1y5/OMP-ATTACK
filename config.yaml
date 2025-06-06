@@ -1,0 +1,22 @@
+DET:
+  N_add: 3    # the number of cardboard
+  Npts_cls: 4   # the number of points on the cardboard
+  size_cls: 0.2   # the size of cardboard
+  origin: 'rear_right'  # "rear_left", "rear_right", "front_left", "front_right"
+
+  ATTACK:
+    N_iter: 1000  # the number of "query"
+
+PRED:
+  epoch_num: 10
+  iter_num: 20
+  step_num: 1
+
+  dp_init: 1
+  dh_lr_init: 0.05
+  dp_lr_init: 0.1
+  lr_decay: 0.98
+
+  CLUSTER:
+    eps: 0.1
+    min_samples: 2
