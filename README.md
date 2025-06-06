@@ -25,7 +25,11 @@ Trajectory prediction plays a crucial role in autonomous driving systems, and ex
    conda create -n pixor_nuscs python=3.7
 
    # install dependecies
-   Follow [PIXOR](https://github.com/philip-huang/PIXOR) to install the environment
+   Follow [PIXOR](https://github.com/philip-huang/PIXOR) to install the dependecies
+
+   # compile
+   cd srcs/preprocess_nuscs
+   make
    ```
 3. CD to the `Trajectron-plus-plus` directory and create a conda environment for the Trajectron++ predictor:
    ```bash
@@ -34,7 +38,7 @@ Trajectory prediction plays a crucial role in autonomous driving systems, and ex
    conda create -n trajectron++ python=3.7
 
    # install dependecies
-   Follow [Trajectron-plus-plus](https://github.com/StanfordASL/Trajectron-plus-plus) to install the environment
+   Follow [Trajectron-plus-plus](https://github.com/StanfordASL/Trajectron-plus-plus) to install the dependecies
    ```
 
 ### Data preparation
