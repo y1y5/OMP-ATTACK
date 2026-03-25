@@ -11,7 +11,7 @@ import warnings
 from tqdm import tqdm
 import visualization
 import evaluation
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 from argument_parser import args
 from model.trajectron import Trajectron
 from model.model_registrar import ModelRegistrar
