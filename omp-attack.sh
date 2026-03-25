@@ -35,7 +35,7 @@ conda activate pixor_nuscs
 
 specific_scenes='scene-0103'
 specific_instance='3620feb00d744241a94855f3a8913a78'
-begin_frame=14
+begin_frame=13
 
 python -W ignore attack_sampling.py \
         --data_dir ${root_dir} \
