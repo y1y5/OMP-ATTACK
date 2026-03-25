@@ -3,7 +3,7 @@
 
 """
 This script converts nuScenes data to KITTI format and KITTI results to nuScenes.
-It is used for compatibility with software that uses KITTI-style annotations.
+It is used for compatibility with software that uses KITTI-style annotations. 
 
 We do not encourage this, as:
 - KITTI has only front-facing cameras, whereas nuScenes has a 360 degree horizontal fov.
